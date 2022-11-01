@@ -46,8 +46,8 @@ function App() {
         <CreateAdBanner />
         <CreateAdModal games={games} />
       </Dialog.Root>
-
-      <div className='mt-2 w-full rounded shadow-2xl bg-[#2A2634]'>
+      
+      {/* <div className='mt-2 w-full rounded shadow-2xl bg-[#2A2634]'>
       <h1 className='text-white font-bold text-center text-4xl'>Aqui é um GRID com 6 colunas </h1>
         <div className='grid grid-cols-6 gap-6 m-2'>
           <div className="col-span-6 sm:col-span-3">
@@ -77,8 +77,8 @@ function App() {
           </div>
 
         </div>
-      </div>
-
+      </div> */}
+      
 
     </div>
   )
